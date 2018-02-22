@@ -11,7 +11,6 @@
     "lint": "eslint src tests",
     "prettier": "prettier --write \"{src,tests}/**/*.js\"",
     "prepublish": "rimraf lib && yarn build",
-    "postinstall": "yarn prepublish",
     "test": "jest"
   },
   "keywords": ["react", "react-tunnels", "portals", "components"],
